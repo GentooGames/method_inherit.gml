@@ -6,7 +6,7 @@ method_inherit can be used to inherit the logic of a previously declared object 
 this implementation does not preserve "static" functionality, and should primarily be used for non-static-methods declared in gml.objects.
 
 # credit
-original method-inherit concept created by Gleb Tsereteli. expanded and extra features added by __gentoo__
+original method-inherit implemented by Gleb Tsereteli. expanded by __gentoo__
 
 # how-to-use
 Example 1: (standard use)
