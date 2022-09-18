@@ -15,9 +15,9 @@ world = method_inherit(hello, function() {
   show_debug_message("world");
 });
 world();
-
+----------
 /* OUTPUT:
-//////////
+----------
   "hello"
   "world"
 */
@@ -31,9 +31,9 @@ world = method_inherit(hello, function() {
   show_debug_message("world");
 });
 world();
-
+----------
 /* OUTPUT:
-//////////
+----------
   "hello"
   "world"
 */
@@ -50,9 +50,9 @@ world = method_inherit(hello, function() {
   show_debug_message("world");
 });
 world();
-
+----------
 /* OUTPUT:
-//////////
+----------
   "hello"
   "world"
   "callback message after execution"
