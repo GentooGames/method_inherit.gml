@@ -42,6 +42,7 @@ OUTPUT:
 "world"
 ```
 Example 3: (callback example)
+the callback method passed in will execute at the end of the inheritance chain.
 ```
 hello = method_inherit(,function() {
   show_debug_message("hello");
@@ -63,4 +64,4 @@ OUTPUT:
 ```
 
 # downside
-because method_inherit() cannot be used with static methods, any method that would be declared as static, and is not (in order to work with this implementation), automatically becomes less memory efficient. additionally, instead of one method being declared and stored in memory, method_inherit() creates four method references, and stores them in memory instead. therefore, what could theoretically be accomplished with one static method declaration, instead becomes 4 * n, where n is the number of instances implementing the non-static-method. gamemaker games, on average, dont have to worry about overrusing memory resources, so this is not as severe of a problem, but something that you should be aware of while using.
+because method_inherit() cannot be used with static methods, any method that would be declared as static, and is not (in order to work with this implementation), automatically becomes less memory efficient. additionally, instead of one method being declared and stored in memory, method_inherit() creates four method references, and stores them in memory instead. therefore, what could theoretically be accomplished with one static method declaration, instead becomes 4 * n, where n is the number of instances implementing the non-static-method. gamemaker games, on average, dont have to worry about overusing  memory resources, so this is not as severe of a problem, but something that you should be aware of while using.
