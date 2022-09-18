@@ -25,7 +25,7 @@ OUTPUT:
 "hello"
 "world"
 ```
-Example 2: (standard use alt. using method_inherit with no parent declared)
+Example 2: (alternative standard use. using method_inherit with no parent declared)
 ```
 hello = method_inherit(,function() {
   show_debug_message("hello");
