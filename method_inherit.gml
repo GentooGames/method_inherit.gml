@@ -1,4 +1,4 @@
-static method_inherit = function(_method_parent = undefined, _method_child = undefined, _callback = undefined) {
+function method_inherit(_method_parent = undefined, _method_child = undefined, _callback = undefined) {
 	//
 	var _inherit_depth = 1;
 	
