@@ -15,12 +15,12 @@ world = method_inherit(hello, function() {
   show_debug_message("world");
 });
 world();
-----------
-/* OUTPUT:
-----------
-  "hello"
-  "world"
-*/
+
+-------
+OUTPUT:
+-------
+"hello"
+"world"
 ```
 Example 2: (using method_inherit with no parent declared)
 ```
@@ -31,12 +31,12 @@ world = method_inherit(hello, function() {
   show_debug_message("world");
 });
 world();
-----------
-/* OUTPUT:
-----------
-  "hello"
-  "world"
-*/
+
+-------
+OUTPUT:
+-------
+"hello"
+"world"
 ```
 Example 3: (callback example)
 ```
@@ -50,13 +50,13 @@ world = method_inherit(hello, function() {
   show_debug_message("world");
 });
 world();
-----------
-/* OUTPUT:
-----------
-  "hello"
-  "world"
-  "callback message after execution"
-*/
+
+-------
+OUTPUT:
+-------
+"hello"
+"world"
+"callback message after execution"
 ```
 
 # credit
